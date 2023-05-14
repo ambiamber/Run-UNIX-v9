@@ -11,7 +11,7 @@
 * Symbolic links in tar files under v9 are stored differently from BSD tar files.  The tar program uses L as an argument to indicate that a symbolic link should be stored in the tar file instead of the contents of the file that it points to.
 * The output of `ls -l` shows the letter L after the link count if the file is a symbolic link. Use `ls -lL` to see what the link points to.
 * To see multi-column output from ls use `ls | mc` to pipe the output through the multi-column (mc) program.
-* There is no vi, use Warren Montgomery emacs and /bin/ed.
+* There is no vi, use Warren Montgomery emacs and /bin/ed.  For documenation of that emacs, see [DTIC ADA137264: Beginners' Tutorial for JHU UNIX at BRL (Ballistic Research Laboratory)](https://archive.org/details/DTIC_ADA137264/page/n79/mode/2up).
 * The batterpudding.tar tape is probably missing things that are in other v9 distributions. See README-dak for statements about where the tape came from.
 * It might be possible to existing v8 and v10 source code to fill in some gaps.  For instance v8 and v10 uniq.c are identical.
 
