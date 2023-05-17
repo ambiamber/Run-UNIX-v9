@@ -202,7 +202,7 @@ shutdown -h now
 ```
 Ctrl-C the tmesh program.
 
-README-dak says to boot into single user mode by using the `-s` option to the `b` command (`> b sd() -s`) but that needs you to be at the `>` prompt and that requires being able to interrupt the boot process.
+README-dak says to boot into single user mode by using the `-s` option to the `b` command (`> b sd() -s`) but that requires you to be at the `>` prompt and that requires being able to interrupt the boot process.
 
 A Sun3 workstation can be interrupted and sent to the boot PROM by typing what is called El-one-aye which happens when you hold down the L1 key and type the letter a.  A real Sun3 workstation has an L1 key the way a PeeCee has an F1 key.  The `sun-macros.txt` file controls what you type into tme to generate an L1. Unfortunately, I've never gotten this part to work.
 
